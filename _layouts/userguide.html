@@ -1,0 +1,44 @@
+---
+layout: main
+name: User Guide
+---
+
+<div class="posts">
+	<div class="post">
+		<h3 class="section">{{ page.name }}</h3>
+		<hr/>
+	</div>
+
+	<div class="navigation">
+		{% if page.prev %}
+		<a class="prev" href="{{ site.url }} /userguide{{ page.prev_link }}">{{ page.prev }}</a>
+		{% else %}
+		<span class="prev"></span>
+		{% endif %}
+		{% if page.next %}
+		<a class="next" href="{{ site.url }}/userguide{{ page.next_link }}">{{ page.next }}</a>
+		{% else %}
+		<span class="next"></span>
+		{% endif %}
+	</div>
+
+	<div class="post">
+		<h1>{{ page.subject }}</h1>
+		{{ content }}
+	</div>
+	<br/>
+
+	<div class="navigation">
+		{% if page.prev %}
+		<a class="prev" href="{{ site.url }} /userguide{{ page.prev_link }}">{{ page.prev }}</a>
+		{% else %}
+		<span class="prev"></span>
+		{% endif %}
+		{% if page.next %}
+		<a class="next" href="{{ site.url }}/userguide{{ page.next_link }}">{{ page.next }}</a>
+		{% else %}
+		<span class="next"></span>
+		{% endif %}
+	</div>
+</div>
+

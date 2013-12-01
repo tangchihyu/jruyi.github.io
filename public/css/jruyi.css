@@ -1,0 +1,61 @@
+.section {
+        color: #aaa;
+}
+
+.toc {
+	margin-left: 30px;
+}
+
+.lead {
+	font-size: 18px;
+	color: #ddd;
+}
+
+.colophon p {
+	font-size: 11px;
+}
+
+@media (min-width: 1025px) and (min-height: 769px) {
+	.lead {
+		font-size: 24px;
+	}
+	.colophon p {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.masthead {
+		width: 306px;
+	}
+}
+
+/* Navigation
+-------------------------------------------------- */
+
+.navigation {
+	overflow: hidden; /* clearfix */
+	margin-bottom: 60px;
+	font-weight: bold;
+}
+.navigation .prev,
+.navigation .next {
+	float: left;
+	width: 50%;
+	color: #555;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1px;
+}
+
+.navigation a:hover {
+	color: #111;
+}
+.navigation .prev {
+	text-align: left;
+}
+.navigation .next {
+	text-align: right;
+}
+

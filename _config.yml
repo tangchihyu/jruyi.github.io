@@ -1,0 +1,6 @@
+markdown: redcarpet
+permalink: pretty
+paginate_path: 'news/page:num'
+pygments: true
+paginate: 5
+
