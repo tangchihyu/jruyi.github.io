@@ -29,14 +29,14 @@ Add JRuyi API to your pom as follows.
 ```xml
 ...
 <dependencies>
-...
+	...
 	<dependency>
 		<groupId>org.jruyi</groupId>
 		<artifactId>jruyi-api</artifactId>
 		<version>1.0.0</version>
 		<scope>provided</scope>
 	</dependency>
-...
+	...
 </dependencies>
 ...
 ```
@@ -67,19 +67,19 @@ To simplify building OSGi bundles, add [Maven Bundle Plugin](https://cwiki.apach
 
 To simplify the OSGi-based development, you can use [Declarative Services](http://wiki.osgi.org/wiki/Declarative_Services) as the service-oriented component model though there are other alternatives such as [iPOJO](http://felix.apache.org/site/apache-felix-ipojo.html).
 
-To ease the development of OSGi DS components and services, you can use [Maven SCR Plugin](https://cwiki.apache.org/confluence/display/FELIX/Apache+Felix+Maven+SCR+Plugin) as follows.
+To ease the development of OSGi DS components and services, you can use [Maven SCR Plugin](https://cwiki.apache.org/confluence/display/FELIX/Apache+Felix+Maven+SCR+Plugin) by adding this to your pom.
 
 ```xml
 ...
 <dependencies>
-...
+	...
 	<dependency>
 		<groupId>org.apache.felix</groupId>
 		<artifactId>org.apache.felix.scr.annotations</artifactId>
 		<version>1.9.6</version>
 		<scope>provided</scope>
 	</dependency>
-...
+	...
 </dependencies>
 ...
 <build>

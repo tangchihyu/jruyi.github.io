@@ -15,28 +15,28 @@ Please go to [Download]({{ site.url }}/download) to get the latest release of JR
 
 ### <a name="startstop"></a>2.3. Starting/Stopping JRuyi
 
-To start JRuyi, go to **$JRUYI_HOME** and run the following command.
+To start JRuyi, go to $JRUYI_HOME and run the following command.
 
-```
+```bash
 bin/ruyi &
 ```
-To stop JRuyi, go to **$JRUYI_HOME** and run the following command.
+To stop JRuyi, go to $JRUYI_HOME and run the following command.
 
-```
+```bash
 bin/ruyi-cli shutdown
 ```
 
 ### <a name="cli"></a>2.4. JRuyi CLI
 
-To start JRuyi CLI, go to **$JRUYI_HOME** and run the following command.
+To start JRuyi CLI, go to $JRUYI_HOME and run the following command.
 
-```
+```bash
 bin/ruyi-cli
 ```
 
 To see all the installed OSGi bundles, run the following command.
 
-```
+```bash
 default> bundle:list
 ```
 
