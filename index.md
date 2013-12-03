@@ -15,9 +15,9 @@ Last but not least, JRuyi embraces [OSGi](http://www.osgi.org/Technology/WhatIsO
 
 * Modularity – JRuyi is built on OSGi framework which is a dynamic module system and service platform.
 
-* Service Oriented – JRuyi is an OSGi based framework; Its functionality is mainly provided through services.
+* Service Oriented – JRuyi is an OSGi based framework; its functionality is mainly provided through services.
 
 * Asynchronism – JRuyi provides an event-driven asynchronous IO framework and an in-memory asynchronous messaging framework.
 
-* Performance – Higher throughput, lower latency; Provides a thread-local cache mechanism to avoid frequent creation of large objects such as buffers; Provides chained buffers to minimize unnecessary memory copy.
+* Performance – Higher throughput, lower latency; provides a thread-local cache mechanism to avoid frequent creation of large objects such as buffers; provides chained buffers to minimize unnecessary memory copy.
 
