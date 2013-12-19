@@ -12,12 +12,12 @@ With JRuyi, you don't need to write any code to build a [discard](http://tools.i
 Go to $JRUYI_HOME, and start JRuyi as follows.
 
 ```
-bin/ruyi &
+bin/ruyi
 ```
 
 ### 2. Create a Session Service Endpoint
 
-Run the following command under $JRUYI_HOME to create a TCP server (Session Service) listening on port 9009.
+Open a new console and run the following command under $JRUYI_HOME to create a TCP server (Session Service) listening on port 9009.
 
 ```
 bin/ruyi-cli conf:create jruyi.io.tcpserver jruyi.me.endpoint.id=eg.discard.tcpsvr port=9009
@@ -30,10 +30,10 @@ The corresponding Session Service Endpoint is identified with *eg.discard.tcpsvr
 Run the following command under $JRUYI_HOME to set a route.
 
 ```
-bin/ruyi-cli route:set eg.discard.tcpsvr '"null"'
+bin/ruyi-cli route:set eg.discard.tcpsvr jruyi.me.endpoint.null
 ```
 
-This is to tell Messaging Engine to dispatch any message from endpoint *eg.discard.tcpsvr* to endpoint *null*. Endpoint *null* is a special one. It swallows any message dispatched to it.
+This is to tell Messaging Engine to dispatch any message from endpoint *eg.discard.tcpsvr* to endpoint *jruyi.me.endpoint.null*. Endpoint *jruyi.me.endpoint.null* is a special one. It swallows any message dispatched to it.
 
 That's it! You just built a discard server using JRuyi.
 
@@ -53,5 +53,13 @@ To see the data that the discard server received, you can add a MsgLog Filter to
 
 ```
 bin/ruyi-cli conf:update '"(jruyi.me.endpoint.id=eg.discard.tcpsvr)"' filters=jruyi.io.msglog.filter
+```
+
+### 5. Shutdown JRuyi
+
+To shutdown JRuyi, simply enter Ctrl+C in the console in which JRuyi was started. Alternatively, you can run the following command under $JRUYI_HOME.  
+
+```
+bin/ruyi-cli shutdown
 ```
 

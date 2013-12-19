@@ -1,11 +1,12 @@
 ---
 layout: page
 name: Javadoc
+version: 1.0.0
 ---
 
-# JRuyi API 1.0.0
+# JRuyi API {{ page.version }}
 
-* [html](1.0.0)
-* [zip](https://github.com/jruyi/jruyi/releases/download/v1.0.0/jruyi-api-1.0.0-javadoc.zip)
-* [tar.gz](https://github.com/jruyi/jruyi/releases/download/v1.0.0/jruyi-api-1.0.0-javadoc.tar.gz)
+* [html]({{ page.version }})
+* [zip](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-api-{{ page.version }}-javadoc.zip)
+* [tar.gz](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-api-{{ page.version }}-javadoc.tar.gz)
 

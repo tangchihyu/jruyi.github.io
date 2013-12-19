@@ -18,7 +18,7 @@ Please go to [Download]({{ site.url }}/download) to get the latest release of JR
 To start JRuyi, go to $JRUYI_HOME and run the following command.
 
 ```bash
-bin/ruyi &
+bin/ruyi
 ```
 To stop JRuyi, go to $JRUYI_HOME and run the following command.
 
