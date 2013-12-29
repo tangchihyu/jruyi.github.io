@@ -3,7 +3,7 @@ layout: page
 name: Getting Started
 ---
 
-# Writing a Time Server
+# Writing a Daytime Server
 
 TBD
 

@@ -12,7 +12,7 @@ Just as [building a discard server](../building-a-discard-server), you don't nee
 Run the following command under $JRUYI_HOME.
 
 ```
-bin/ruyi &
+bin/ruyi
 ```
 
 Or you can use the same JRuyi running instance hosting the discard server you built in [Building a Discard Server](../building-a-discard-server).

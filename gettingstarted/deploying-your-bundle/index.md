@@ -10,7 +10,7 @@ name: Getting Started
 Go to $JRUYI_HOME and run the following command.
 
 ```bash
-bin/ruyi &
+bin/ruyi
 ```
 
 ### 2. Deploy Your Bundle

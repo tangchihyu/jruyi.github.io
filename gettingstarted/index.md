@@ -7,12 +7,12 @@ Here are some simple examples to let you get started quickly with JRuyi. However
 
 Throughout this whole Getting Started, $JRUYI_HOME is used to refer to the installation directory (home directory) of JRuyi. Please see [here]({{ site.url }}/userguide/installation) for how to install JRuyi.
 
-All the examples are given under a UNIX-like environment. It should be very straightforward for you to make them work on Windows. Just use the counterpart bat file for a shell file mentioned in the examples. For example, use ruyi.bat for ruyi and ruyi-cli.bat for ruyi-cli.
+All the examples are given under a UNIX-like environment. It should be very straightforward for you to make them work on Windows. Just use the counterpart BAT file for a shell script file mentioned in the examples. For example, use ruyi.bat for ruyi and ruyi-cli.bat for ruyi-cli.
 
 * [Building a Discard Server](building-a-discard-server)
 * [Building an Echo Server](building-an-echo-server) 
 * [Creating Your Maven Project](creating-your-maven-project)
 * [Deploying Your Bundle](deploying-your-bundle)
-* [Writing a Time Server](writing-a-time-server)
+* [Writing a Daytime Server](writing-a-daytime-server)
 * Writing a Gateway
 
