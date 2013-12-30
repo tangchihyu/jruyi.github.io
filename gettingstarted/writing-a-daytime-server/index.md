@@ -134,7 +134,7 @@ public class DaytimeServer extends SessionListener {
 
 ### 2. Start JRuyi
 
-Go to $JRUYI_HOME, and start JRuyi as follows.
+If JRuyi has not been started yet, please go to $JRUYI_HOME and start JRuyi as follows.
 
 ```
 bin/ruyi

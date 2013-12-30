@@ -9,7 +9,7 @@ With JRuyi, you don't need to write any code to build a [discard](http://tools.i
 
 ### 1. Start JRuyi
 
-Go to $JRUYI_HOME, and start JRuyi as follows.
+If JRuyi has not been started yet, please go to $JRUYI_HOME and start JRuyi as follows.
 
 ```
 bin/ruyi
@@ -59,7 +59,7 @@ bin/ruyi-cli conf:update '"(jruyi.me.endpoint.id=eg.discard.tcpsvr)"' filters=jr
 
 ### 5. Shutdown JRuyi
 
-To shutdown JRuyi, simply enter Ctrl+C in the console in which JRuyi was started. Alternatively, you can run the following command under $JRUYI_HOME.  
+To shutdown JRuyi, simply press ctrl-c in the console in which JRuyi was started. Alternatively, you can run the following command under $JRUYI_HOME.  
 
 ```
 bin/ruyi-cli shutdown

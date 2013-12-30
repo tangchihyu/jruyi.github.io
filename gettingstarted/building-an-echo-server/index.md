@@ -9,7 +9,7 @@ Just as [building a discard server](../building-a-discard-server), you don't nee
 
 ### 1. Start JRuyi
 
-Run the following command under $JRUYI_HOME.
+If JRuyi has not been started yet, run the following command under $JRUYI_HOME
 
 ```
 bin/ruyi
