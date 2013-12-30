@@ -9,6 +9,8 @@ Throughout this whole Getting Started, $JRUYI_HOME is used to refer to the insta
 
 All the examples are given under a UNIX-like environment. It should be very straightforward for you to make them work on Windows. Just use the counterpart BAT file for a shell script file mentioned in the examples. For example, use ruyi.bat for ruyi and ruyi-cli.bat for ruyi-cli.
 
+To get the source code of examples, please check [jruyi-eg](https://github.com/jruyi/jruyi-eg) on Github.
+
 * [Building a Discard Server](building-a-discard-server)
 * [Building an Echo Server](building-an-echo-server) 
 * [Creating Your Maven Project](creating-your-maven-project)

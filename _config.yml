@@ -3,4 +3,5 @@ permalink: pretty
 paginate_path: 'news/page:num'
 pygments: true
 paginate: 5
+jruyi-api-version: 1.0.0
 

@@ -23,7 +23,9 @@ Open a new console and run the following command under $JRUYI_HOME to create a T
 bin/ruyi-cli conf:create jruyi.io.tcpserver jruyi.me.endpoint.id=eg.discard.tcpsvr port=9009
 ```
 
-The corresponding Session Service Endpoint is identified with *eg.discard.tcpsvr*.
+The created TCP Server Endpoint is identified with *eg.discard.tcpsvr*.
+
+As you see, a Session Service Endpoint of tcpserver is created by creating a configuration of *jruyi.io.tcpserver*.
 
 ### 3. Configure the Routing Table
 
@@ -33,7 +35,7 @@ Run the following command under $JRUYI_HOME to set a route.
 bin/ruyi-cli route:set eg.discard.tcpsvr jruyi.me.endpoint.null
 ```
 
-This is to tell Messaging Engine to dispatch any message from endpoint *eg.discard.tcpsvr* to endpoint *jruyi.me.endpoint.null*. Endpoint *jruyi.me.endpoint.null* is a special one. It swallows any message dispatched to it.
+This is to tell Messaging Engine to dispatch any message from endpoint *eg.discard.tcpsvr* to endpoint *jruyi.me.endpoint.null* which is a builtin endpoint to swallow any message dispatched to it.
 
 That's it! You just built a discard server using JRuyi.
 
