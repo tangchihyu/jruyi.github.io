@@ -33,7 +33,7 @@ Add JRuyi API to your pom as follows.
 	<dependency>
 		<groupId>org.jruyi</groupId>
 		<artifactId>jruyi-api</artifactId>
-		<version>1.0.0</version>
+		<version>{{ site.jruyi-api-version }}</version>
 		<scope>provided</scope>
 	</dependency>
 	...

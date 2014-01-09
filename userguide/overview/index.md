@@ -41,7 +41,7 @@ JRuyi is built on OSGi platform.  It mainly uses [OSGi Declarative Services](htt
 
 * Filter – A filter intercepts incoming/outgoing data from/to the network.
 
-* Timeout Admin - A concurrent and scalable timer service using timer wheel algorithm.
+* Timeout Admin - A concurrent and scalable timer service using timing wheels algorithm.
 
 * Workshop – A thread pool service.
 

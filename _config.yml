@@ -1,7 +1,12 @@
+title: JRuyi
+url: http://www.jruyi.org
+author:
+  name: "Agemo Cui"
+  email: "agemocui@jruyi.org"
 markdown: redcarpet
 permalink: pretty
 paginate_path: 'news/page:num'
 pygments: true
 paginate: 5
-jruyi-api-version: 1.0.0
+jruyi-api-version: 1.1.1
 
