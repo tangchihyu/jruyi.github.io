@@ -1,13 +1,12 @@
 ---
 layout: page
 name: Download
-version: 1.1.2
 ---
 
-# JRuyi {{ page.version }}
+# JRuyi {{ site.jruyi-version }}
 
-* [zip](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-{{ page.version }}-bin.zip) [[MD5](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-{{ page.version }}-bin.zip.md5)] [[SHA1](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-{{ page.version }}-bin.zip.sha1)]
-* [tar.gz](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-{{ page.version }}-bin.tar.gz) [[MD5](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-{{ page.version }}-bin.tar.gz.md5)] [[SHA1](https://github.com/jruyi/jruyi/releases/download/v{{ page.version }}/jruyi-{{ page.version }}-bin.tar.gz.sha1)]
+* [zip](https://github.com/jruyi/jruyi/releases/download/v{{ site.jruyi-version }}/jruyi-{{ site.jruyi-version }}-bin.zip) [[MD5](https://github.com/jruyi/jruyi/releases/download/v{{ site.jruyi-version }}/jruyi-{{ site.jruyi-version }}-bin.zip.md5)] [[SHA1](https://github.com/jruyi/jruyi/releases/download/v{{ site.jruyi-version }}/jruyi-{{ site.jruyi-version }}-bin.zip.sha1)]
+* [tar.gz](https://github.com/jruyi/jruyi/releases/download/v{{ site.jruyi-version }}/jruyi-{{ site.jruyi-version }}-bin.tar.gz) [[MD5](https://github.com/jruyi/jruyi/releases/download/v{{ site.jruyi-version }}/jruyi-{{ site.jruyi-version }}-bin.tar.gz.md5)] [[SHA1](https://github.com/jruyi/jruyi/releases/download/v{{ site.jruyi-version }}/jruyi-{{ site.jruyi-version }}-bin.tar.gz.sha1)]
 
 <br><br>
 ## Previous Releases
