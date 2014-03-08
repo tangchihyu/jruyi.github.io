@@ -9,5 +9,5 @@ paginate_path: 'news/page:num'
 pygments: true
 paginate: 10 
 jruyi-api-version: 1.2.0
-jruyi-version: 1.2.0
+jruyi-version: 1.2.1
 
